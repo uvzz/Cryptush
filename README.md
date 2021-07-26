@@ -1,6 +1,8 @@
 # Cryptush
 An open-source .NET Ransomware
 
+For research and threat simulations purposes only! I'm not reponsible for any malicious uses of this tool.
+
 <p align="center">
     <img src="https://i.imgur.com/zuUXyET.png">
 
@@ -30,7 +32,13 @@ A reconnect attempt will be made every 30 seconds.
 
 * You can view details about the encrypted files on each victim using the "files" command.
 
-### Dependencies
+## AV Tests
+
+* Kaspersky - PASS
+* CrowdStrike - PASS
+
+
+## Dependencies
 
 * Client - .NET Framework 4.8
 * Server - .NET core 5.0
