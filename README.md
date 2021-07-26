@@ -1,5 +1,5 @@
 # Cryptush
-An open-source .NET Ransomware
+An open-source ransomware tool written in .NET
 
 <p align="center">
     <img src="https://i.imgur.com/zuUXyET.png">
