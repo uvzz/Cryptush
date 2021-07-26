@@ -1,3 +1,6 @@
+# 
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Cryptush
 An open-source ransomware tool written in .NET
 
@@ -85,3 +88,8 @@ sudo dotnet CryptushServer.dll --ip=* --port=443
 
 * Client - .NET Framework 4.8
 * Server - .NET core 5.0
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[linkedin-url]: https://www.linkedin.com/in/yuval-moravchick-4311b550/
