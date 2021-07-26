@@ -1,12 +1,14 @@
 # Cryptush
 An open-source .NET Ransomware
 
-For research and threat simulations purposes only! I'm not reponsible for any malicious uses of this tool.
-
 <p align="center">
     <img src="https://i.imgur.com/zuUXyET.png">
-
 </p>
+
+
+## Disclaimer
+
+The tools is intended for research and threat emulation purposes only. I'm not reponsible for any malicious uses of this tool.
 
 ## The Flow
 
