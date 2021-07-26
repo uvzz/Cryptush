@@ -28,25 +28,8 @@ The tool is intended for research and threat emulation purposes only. I'm not re
 * The ransomeware will not run in there's no communication to the C2 server. 
 A reconnect attempt will be made every 30 seconds.
 
-## Server commands
 
-* You can view details about the encrypted victims using the "list" command (hostname, username, launch time, time left for payment, etc.).
-
-* You can view details about the encrypted files on each victim using the "files" command.
-
-### AV Tests
-
-* Kaspersky - PASS
-* CrowdStrike - PASS
-
-
-### Dependencies
-
-* Client - .NET Framework 4.8
-* Server - .NET core 5.0
-
-
-### Getting Started
+## Getting Started
 
 * Edit the app.config file inside the Cryptush folder with your details:
 
@@ -75,6 +58,12 @@ A reconnect attempt will be made every 30 seconds.
 
 You can change them in Cryptush/lib/Collector.cs
 
+### Server commands
+
+* You can view details about the encrypted victims using the "list" command (hostname, username, launch time, time left for payment, etc.).
+
+* You can view details about the encrypted files on each victim using the "files" command.
+
 
 ### Installing the server on Linux
 
@@ -85,3 +74,14 @@ sudo apt update
 sudo apt install -y dotnet-runtime-5.0
 sudo dotnet CryptushServer.dll --ip=* --port=443
 ```
+
+### AV Tests
+
+* Kaspersky - PASS
+* CrowdStrike - PASS
+
+
+### Dependencies
+
+* Client - .NET Framework 4.8
+* Server - .NET core 5.0
