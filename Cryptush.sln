@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptush", "Cryptush\Cryptush.csproj", "{E5F717DE-8FC2-477A-BFE3-411F49A6DBF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptushServer", "CryptushServer\CryptushServer.csproj", "{F209094B-4718-464A-9260-3959A856BE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeCryptush", "DeCryptush\DeCryptush.csproj", "{D22BCE90-402B-4882-B5B2-6A8BEFFF719C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5F717DE-8FC2-477A-BFE3-411F49A6DBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F717DE-8FC2-477A-BFE3-411F49A6DBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F717DE-8FC2-477A-BFE3-411F49A6DBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F717DE-8FC2-477A-BFE3-411F49A6DBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F209094B-4718-464A-9260-3959A856BE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F209094B-4718-464A-9260-3959A856BE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F209094B-4718-464A-9260-3959A856BE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F209094B-4718-464A-9260-3959A856BE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22BCE90-402B-4882-B5B2-6A8BEFFF719C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22BCE90-402B-4882-B5B2-6A8BEFFF719C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22BCE90-402B-4882-B5B2-6A8BEFFF719C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22BCE90-402B-4882-B5B2-6A8BEFFF719C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFB749F6-2B3E-46EB-90BB-A112F11EE3C8}
+	EndGlobalSection
+EndGlobal
