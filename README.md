@@ -1,6 +1,3 @@
-# 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 # Cryptush
 An open-source ransomware tool written in .NET
 
