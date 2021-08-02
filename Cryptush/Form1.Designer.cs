@@ -63,7 +63,6 @@ namespace Cryptush
             this.label1.TabIndex = 0;
             this.label1.Text = "Your files have been encrypted";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -89,7 +88,6 @@ namespace Cryptush
             this.emailText.Text = "Once paid, send your wallet address and the following token to hacker123@gmail.co" +
     "m:";
             this.emailText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.emailText.Click += new System.EventHandler(this.label3_Click);
             // 
             // MinutesTimer
             // 
@@ -107,7 +105,6 @@ namespace Cryptush
             this.MinutesLBL.Size = new System.Drawing.Size(55, 47);
             this.MinutesLBL.TabIndex = 5;
             this.MinutesLBL.Text = "59";
-            this.MinutesLBL.Click += new System.EventHandler(this.lblCountDown_Click);
             // 
             // walletText
             // 
@@ -120,7 +117,6 @@ namespace Cryptush
             this.walletText.TabIndex = 6;
             this.walletText.Text = "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh";
             this.walletText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.walletText.Click += new System.EventHandler(this.walletText_Click);
             // 
             // pictureBox1
             // 
@@ -143,7 +139,6 @@ namespace Cryptush
             this.tokenLabel.TabIndex = 8;
             this.tokenLabel.Text = "5f43f6d6-8f54-422a-8e8a-6f36fdab34a1";
             this.tokenLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tokenLabel.Click += new System.EventHandler(this.label6_Click);
             // 
             // secondsLBL
             // 
